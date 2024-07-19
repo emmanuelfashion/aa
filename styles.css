@@ -1,0 +1,91 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 2rem;
+}
+
+nav {
+    background-color: green;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav a {
+    color: white;
+    margin: 1rem;
+}
+
+nav a:hover {
+    background-color: burlywood;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 25%;
+}
+
+.team-member {
+    text-align: center;
+}
+
+footer {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: blue;
+    text-decoration: brown;
+    margin: 2rem;
+}
+
+footer a:hover { background-color: aquamarine;
+}
+
